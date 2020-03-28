@@ -1,0 +1,8 @@
+import random
+a = random.sample(range(0,100), random.randint(10,50))
+b = random.sample(range(0,100), random.randint(10,50))
+print(a)
+print(b)
+c= [i for i in a for j in b if i==j]
+print(set(c))
+                
